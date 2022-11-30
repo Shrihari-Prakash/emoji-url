@@ -1,0 +1,12 @@
+[package]
+name = "emoji-url"
+version = "0.1.0"
+
+[dependencies]
+nickel = "*"
+hyper = "0.11.18"
+rand = "0.3.11"
+urlencoding = "*"
+
+[dependencies.url]
+git = "https://github.com/servo/rust-url"
